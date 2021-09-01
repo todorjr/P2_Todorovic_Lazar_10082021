@@ -1,0 +1,418 @@
+/*
+$desktop: 1200px;
+$laptop: 1024px;
+$tablet: 768px;
+$phone: 426px;
+
+
+/* Laptop */
+@media (min-width: 769px) and (max-width: 1024px) {
+  #bloc_page {
+    max-width: 1024px;
+    height: auto;
+  }
+  .hebergements_main {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .hebergements_main .hebergements_general {
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+  }
+  .hebergements_main .hebergements_general .hotel {
+    width: 29%;
+    height: 230px;
+    background-color: #fff;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    border: solid 1px #f2f2f2;
+    border-radius: 20px 20px;
+  }
+
+  .hotel1,
+  .hotel2 {
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .populaire {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 0;
+    background-color: #f2f2f2;
+  }
+  footer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .section4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .activites_main {
+    width: 100%;
+    height: 500px;
+    background: #fff;
+    margin-bottom: 50px;
+    border: solid 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .activites_main .first-col {
+    height: 410px;
+    width: auto;
+    margin-left: 10px;
+  }
+  .activites_main .second-col {
+    width: 50%;
+    height: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  .filters ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2px 7px;
+  }
+
+  .search {
+    display: flex;
+    align-content: space-around;
+  }
+}
+/* Tablet */
+
+@media (min-width: 426px) and (max-width: 768px) {
+  #bloc_page {
+    max-width: 768px;
+    height: auto;
+  }
+  form .magnifying_glass {
+    display: inline-block;
+  }
+  input {
+    height: 46px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #000;
+    text-align: justify;
+    border: 1px solid #f2f2f2;
+  }
+  .btn {
+    display: none;
+    border: 0px solid;
+    border-radius: 0 25px 25px 0;
+    height: 15px;
+    background: #3d00ff;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.5em;
+  }
+  .magnifying_glass {
+    display: block;
+  }
+  .magnifying_glass .fas {
+    background: #0065fc;
+    border-radius: 10px 10px;
+    padding-bottom: 30px;
+    color: #fff;
+    font-size: 1em;
+    height: 100%;
+    width: 40px;
+    padding: 12px;
+    margin-left: -8px;
+  }
+  .filters ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2px 7px;
+  }
+  .hebergements_main {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+  }
+  .populaire {
+    width: auto;
+    height: 100%;
+    margin-bottom: 10px;
+    margin-left: 0;
+    background-color: #f2f2f2;
+  }
+  .hebergements_general .titre_hebergements {
+    padding: 20px 0px;
+    margin-left: 30px;
+    margin-right: 0px;
+  }
+  .hebergements_general {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 20px;
+    border: 0px #f2f2f2 solid;
+    background: none;
+  }
+
+  footer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .section4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .activites_main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 20px;
+  }
+  .activites_main .first-col {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .activites_main .second-col {
+    height: auto;
+    width: 90%;
+    margin-left: 0;
+  }
+  .hebergements_general {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  .hebergements_general .hotel1 {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: auto;
+  }
+  .hebergements_general .hotel2 {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: auto;
+  }
+  .hebergements_general .hotel1 .hotel {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .hebergements_general .hotel2 .hotel {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+}
+/*Smarthphone */
+@media (min-width: 320px) and (max-width: 425px) {
+  header .logo {
+    margin-top: 0;
+  }
+  .trouvez .header-1 {
+    font-size: 1.3em;
+    padding-top: 65px;
+  }
+  .trouvez p {
+    font-size: 1em;
+    padding-bottom: 40px;
+  }
+
+  .main-nav ul .inscription {
+    position: relative;
+    top: 5px;
+    padding-right: 0;
+  }
+
+  .main-nav ul .hebergements {
+    position: absolute;
+    display: flex;
+    top: 60px;
+    left: 10px;
+    padding-left: 10px;
+    border-bottom: 3px solid #3d00ff;
+    padding-bottom: 5px;
+    padding-right: 50px;
+  }
+
+  .main-nav ul .activites {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 75px;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-right: 0;
+    border-right: 0;
+    padding-right: 50px;
+  }
+  footer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  form .magnifying_glass {
+    display: inline-block;
+  }
+  input {
+    height: 46px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #000;
+    text-align: justify;
+    border: 1px solid #f2f2f2;
+  }
+  .btn {
+    display: none;
+    border: 0px solid;
+    border-radius: 0 25px 25px 0;
+    height: 15px;
+    background: #3d00ff;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.5em;
+  }
+  .magnifying_glass {
+    display: block;
+  }
+  .magnifying_glass .fas {
+    background: #0065fc;
+    border-radius: 10px 10px;
+    padding-bottom: 30px;
+    color: #fff;
+    font-size: 1em;
+    height: 100%;
+    width: 40px;
+    padding: 12px;
+    margin-left: -8px;
+  }
+  .section4 {
+    display: flex;
+    flex-direction: column;
+  }
+  h2.activites {
+    text-align: center;
+  }
+  .activites_main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 20px;
+  }
+  .activites_main .first-col {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .activites_main .second-col {
+    height: auto;
+    width: 90%;
+    margin-left: 0;
+  }
+  .hebergements_main {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+  }
+  .populaire {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    margin-left: 0;
+    background-color: #f2f2f2;
+    border-radius: 0;
+  }
+  .populaire .hotel_populaire {
+    height: 180px;
+    width: auto;
+  }
+  .hebergements_general .titre_hebergements {
+    padding: 20px 0px;
+    margin-left: 30px;
+    margin-right: 0px;
+  }
+  .hebergements_general {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 20px;
+    border: 0px #f2f2f2 solid;
+    background: none;
+  }
+  .hebergements_general {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  .hebergements_general .hotel1 {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: auto;
+    margin-bottom: 0;
+  }
+  .hebergements_general .hotel2 {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: auto;
+    margin-top: 0;
+  }
+  .hebergements_general .hotel1 .hotel {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .hebergements_general .hotel2 .hotel {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  #bloc_page {
+    max-width: 425px;
+    height: auto;
+  }
+  .search {
+    display: flex;
+    align-content: space-around;
+  }
+  .filters ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2px 7px;
+  }
+  .filter1 {
+    padding-bottom: 5px;
+  }
+}

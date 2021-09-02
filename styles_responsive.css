@@ -55,7 +55,6 @@ $phone: 426px;
   }
   .section4 {
     display: flex;
-    flex-direction: column;
   }
 
   .activites_main {
@@ -100,6 +99,7 @@ $phone: 426px;
     max-width: 768px;
     height: auto;
   }
+
   form .magnifying_glass {
     display: inline-block;
   }
@@ -244,6 +244,7 @@ $phone: 426px;
     position: relative;
     top: 5px;
     padding-right: 0;
+    margin-left: 20px;
   }
 
   .main-nav ul .hebergements {
@@ -261,7 +262,7 @@ $phone: 426px;
     position: absolute;
     display: flex;
     justify-content: space-around;
-    top: 75px;
+    top: 60px;
     align-content: center;
     justify-content: center;
     padding-bottom: 5px;
@@ -288,6 +289,7 @@ $phone: 426px;
     text-align: justify;
     border: 1px solid #f2f2f2;
   }
+
   .btn {
     display: none;
     border: 0px solid;
@@ -305,12 +307,11 @@ $phone: 426px;
   .magnifying_glass .fas {
     background: #0065fc;
     border-radius: 10px 10px;
-    padding-bottom: 30px;
     color: #fff;
     font-size: 1em;
     height: 100%;
-    width: 40px;
-    padding: 12px;
+    width: 45px;
+    padding: 15px;
     margin-left: -8px;
   }
   .section4 {
@@ -318,8 +319,10 @@ $phone: 426px;
     flex-direction: column;
   }
   h2.activites {
-    text-align: center;
+    margin-left: 10px;
+    font-weight: bold;
   }
+
   .activites_main {
     display: flex;
     flex-direction: column;
@@ -336,6 +339,7 @@ $phone: 426px;
     width: 90%;
     margin-left: 0;
   }
+
   .hebergements_main {
     display: flex;
     flex-direction: column-reverse;
@@ -367,12 +371,11 @@ $phone: 426px;
     align-content: center;
     margin-bottom: 20px;
     border: 0px #f2f2f2 solid;
-    background: none;
-  }
-  .hebergements_general {
-    display: flex;
-    flex-direction: column;
     background-color: #fff;
+    margin-left: 45px;
+  }
+  .hebergements_general h2 {
+    margin-left: 0;
   }
   .hebergements_general .hotel1 {
     display: flex;

@@ -266,7 +266,6 @@ $phone: 426px;
     align-content: center;
     justify-content: center;
     padding-bottom: 5px;
-    padding-right: 0;
     border-right: 0;
     padding-right: 50px;
   }
@@ -283,8 +282,7 @@ $phone: 426px;
   }
   input {
     height: 46px;
-    font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #000;
     text-align: justify;
     border: 1px solid #f2f2f2;
@@ -334,6 +332,9 @@ $phone: 426px;
     height: auto;
     margin-bottom: 20px;
   }
+  .activites_main .first-col img {
+    height: 200px;
+  }
   .activites_main .second-col {
     height: auto;
     width: 90%;
@@ -356,7 +357,7 @@ $phone: 426px;
   }
   .populaire .hotel_populaire {
     height: 180px;
-    width: auto;
+    width: 75%;
   }
   .hebergements_general .titre_hebergements {
     padding: 20px 0px;
@@ -372,22 +373,23 @@ $phone: 426px;
     margin-bottom: 20px;
     border: 0px #f2f2f2 solid;
     background-color: #fff;
-    margin-left: 45px;
+    margin-left: 20px;
   }
   .hebergements_general h2 {
-    margin-left: 0;
+    font-size: 1.3rem;
+    margin-right: 55px;
   }
   .hebergements_general .hotel1 {
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: 100%;
     height: auto;
     margin-bottom: 0;
   }
   .hebergements_general .hotel2 {
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: 100%;
     height: auto;
     margin-top: 0;
   }
@@ -416,6 +418,9 @@ $phone: 426px;
     padding: 2px 7px;
   }
   .filter1 {
-    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  .plus {
+    text-align: left;
   }
 }

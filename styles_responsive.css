@@ -420,7 +420,8 @@ $phone: 426px;
   .filter1 {
     margin-bottom: 5px;
   }
-  .plus {
+  .plus p {
     text-align: left;
+    margin-left: 0;
   }
 }

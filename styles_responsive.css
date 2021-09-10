@@ -202,6 +202,10 @@ $phone: 426px;
     display: flex;
     flex-direction: column;
     background-color: #fff;
+    margin-left: 70px;
+  }
+  .hebergements_general h2 {
+    margin-left: 0;
   }
   .hebergements_general .hotel1 {
     display: flex;
@@ -262,7 +266,7 @@ $phone: 426px;
     position: absolute;
     display: flex;
     justify-content: space-around;
-    top: 60px;
+    top: 70px;
     align-content: center;
     justify-content: center;
     padding-bottom: 5px;
@@ -331,6 +335,7 @@ $phone: 426px;
     width: 90%;
     height: auto;
     margin-bottom: 20px;
+    margin-left: 0;
   }
   .activites_main .first-col img {
     height: 200px;
@@ -359,6 +364,12 @@ $phone: 426px;
     height: 180px;
     width: 75%;
   }
+  .titre_populaire {
+    margin-left: 15px;
+  }
+  .titre_populaire h2 {
+    margin-left: 0;
+  }
   .hebergements_general .titre_hebergements {
     padding: 20px 0px;
     margin-left: 30px;
@@ -377,7 +388,7 @@ $phone: 426px;
   }
   .hebergements_general h2 {
     font-size: 1.3rem;
-    margin-right: 55px;
+    margin-left: 0;
   }
   .hebergements_general .hotel1 {
     display: flex;

@@ -187,11 +187,13 @@ $phone: 426px;
     flex-direction: column;
     width: 100%;
     margin-left: 20px;
+    
   }
   .activites_main .first-col {
     width: 90%;
     height: auto;
     margin-bottom: 20px;
+    margin-left:0;
   }
   .activites_main .second-col {
     height: auto;

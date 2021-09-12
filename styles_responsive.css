@@ -103,7 +103,9 @@ $phone: 426px;
     max-width: 768px;
     height: auto;
   }
-
+  .main-nav ul .hebergements {
+    margin-left: -30px;
+  }
   form .magnifying_glass {
     display: inline-block;
   }

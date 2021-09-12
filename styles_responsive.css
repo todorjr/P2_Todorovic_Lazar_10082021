@@ -245,7 +245,7 @@ $phone: 426px;
     text-align:right;
     margin-right:50px;
 }
-/*Smarthphone */
+/*Smarthphone*/
 @media (min-width: 320px) and (max-width: 425px) {
   header .logo {
     margin-top: 0;

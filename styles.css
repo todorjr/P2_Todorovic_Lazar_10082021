@@ -328,16 +328,6 @@ p {
   box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
   transition: 1s;
 }
-.filters .fas.fa-heart:hover {
-  color: red;
-}
-.filters .fas.fa-dog:hover {
-  color: burlywood;
-}
-.filters .fas.fa-money-bill-wave:hover {
-  color: rgb(134, 72, 233);
-}
-
 .filters .fas {
   border-radius: 45px 45px;
   padding: 12px;

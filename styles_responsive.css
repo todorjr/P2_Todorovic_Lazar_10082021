@@ -229,6 +229,7 @@ $phone: 426px;
     flex-direction: column;
     width: 85%;
     height: auto;
+    margin-top:5px;
   }
   .hebergements_general .hotel1 .hotel {
     width: 100%;

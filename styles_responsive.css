@@ -269,6 +269,7 @@ $phone: 426px;
     border-bottom: 3px solid #3d00ff;
     padding-bottom: 5px;
     padding-right: 50px;
+    border-top:none;
   }
 
   .main-nav ul .activites {
@@ -371,7 +372,7 @@ $phone: 426px;
   }
   .populaire .hotel_populaire {
     height: 180px;
-    width: 75%;
+    width: 80%;
   }
   .titre_populaire {
     margin-left: 15px;

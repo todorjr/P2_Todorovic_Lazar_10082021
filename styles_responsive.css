@@ -6,7 +6,7 @@ $phone: 426px;
 
 
 /* Laptop */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   #bloc_page {
     max-width: 1024px;
     height: auto;
@@ -80,6 +80,10 @@ $phone: 426px;
     margin-bottom: 5px;
     margin-top: 10px;
   }
+  .filter1:hover {
+    box-shadow: none;
+    transition: none;
+  }
   .filters ul {
     display: flex;
     flex-direction: row;
@@ -136,6 +140,10 @@ $phone: 426px;
     padding: 12px;
     margin-left: -8px;
   }
+  .filter1:hover {
+    box-shadow: none;
+    transition: none;
+  }
   .filters ul {
     display: flex;
     flex-direction: row;
@@ -187,13 +195,12 @@ $phone: 426px;
     flex-direction: column;
     width: 100%;
     margin-left: 20px;
-    
   }
   .activites_main .first-col {
     width: 90%;
     height: auto;
     margin-bottom: 20px;
-    margin-left:0;
+    margin-left: 0;
   }
   .activites_main .second-col {
     height: auto;
@@ -429,6 +436,10 @@ $phone: 426px;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 2px 7px;
+  }
+  .filter1:hover {
+    box-shadow: none;
+    transition: none;
   }
   .filter1 {
     margin-bottom: 5px;

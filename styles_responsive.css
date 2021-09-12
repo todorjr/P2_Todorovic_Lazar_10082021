@@ -240,6 +240,9 @@ $phone: 426px;
     height: auto;
     margin-bottom: 10px;
   }
+  .plus{
+    text-align:right;
+    margin-right:50px;
 }
 /*Smarthphone */
 @media (min-width: 320px) and (max-width: 425px) {

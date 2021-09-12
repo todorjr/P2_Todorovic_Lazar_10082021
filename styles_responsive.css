@@ -245,7 +245,7 @@ $phone: 426px;
     text-align:right;
     margin-right:50px;
 }
-/*Smarthphone*/
+*Smarthphone */
 @media (min-width: 320px) and (max-width: 425px) {
   header .logo {
     margin-top: 0;
@@ -272,10 +272,10 @@ $phone: 426px;
     top: 60px;
     left: 10px;
     padding-left: 10px;
-    border-bottom: 3px solid #096afc;
+    border-bottom: 3px solid#096afc;
     padding-bottom: 5px;
     padding-right: 50px;
-    border-top:none;
+    border-top: none;
   }
 
   .main-nav ul .activites {
@@ -288,7 +288,7 @@ $phone: 426px;
     padding-bottom: 5px;
     border-right: 0;
     padding-right: 50px;
-    margin-left:-20px;
+    margin-left: -20px;
   }
   footer {
     height: 100%;
@@ -457,3 +457,4 @@ $phone: 426px;
     margin-left: 0;
   }
 }
+

@@ -333,7 +333,9 @@ $phone: 426px;
     height: 100%;
     width: 45px;
     padding: 15px;
-    margin-left: -8px;
+    margin-left: -9px;
+    position:relative;
+    top:-5px;
   }
   .section4 {
     display: flex;

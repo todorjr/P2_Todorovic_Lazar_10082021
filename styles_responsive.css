@@ -140,7 +140,9 @@ $phone: 426px;
     height: 100%;
     width: 40px;
     padding: 12px;
-    margin-left: -8px;
+    margin-left: -9px;
+    position: relative;
+    top: -5px;
   }
   .filter1:hover {
     box-shadow: none;

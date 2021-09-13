@@ -231,7 +231,7 @@ $phone: 426px;
     flex-direction: column;
     width: 85%;
     height: auto;
-    margin-top:5px;
+    margin-top: 5px;
   }
   .hebergements_general .hotel1 .hotel {
     width: 100%;
@@ -243,11 +243,12 @@ $phone: 426px;
     height: auto;
     margin-bottom: 10px;
   }
-  .plus{
-    text-align:right;
-    margin-right:50px;
+  .plus {
+    text-align: right;
+    margin-right: 50px;
+  }
 }
-*Smarthphone */
+/*Smarthphone */
 @media (min-width: 320px) and (max-width: 425px) {
   header .logo {
     margin-top: 0;
@@ -330,12 +331,12 @@ $phone: 426px;
     border-radius: 10px 10px;
     color: #fff;
     font-size: 1em;
-    height: 100%;
     width: 45px;
+    height: 100%;
     padding: 15px;
     margin-left: -9px;
-    position:relative;
-    top:-5px;
+    position: relative;
+    top: -5px;
   }
   .section4 {
     display: flex;
@@ -461,4 +462,3 @@ $phone: 426px;
     margin-left: 0;
   }
 }
-

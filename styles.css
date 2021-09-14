@@ -340,9 +340,9 @@ p {
   padding: 15px 15px;
 }
 .info-loge {
-  padding-top: 30px;
   display: flex;
   margin-left: 10px;
+  margin-bottom: 20px;
 }
 .loge {
   padding-top: 10px;

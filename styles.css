@@ -283,10 +283,11 @@ p {
 
 .hotel_populaire p {
   margin: 2px 0 5px 15px;
+  font-size:.8em
 }
 
 .star_pop {
-  margin: 10px;
+  margin-left: 15px;
   padding-top: 20px;
 }
 

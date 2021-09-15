@@ -70,14 +70,14 @@ $phone: 426px;
     margin-right: 10px;
   }
   .activites_main .first-col {
-    height: 410px;
+    height: 425px;
     width: auto;
   }
   .activites_main .second-col {
     width: 50%;
     height: auto;
     margin-bottom: 5px;
-    margin-top: 10px;
+    margin-left: 15px;
   }
   .filter1:hover {
     box-shadow: none;
@@ -214,10 +214,9 @@ $phone: 426px;
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    margin-left: 70px;
   }
   .hebergements_general h2 {
-    margin-left: 0;
+    margin-left: 20px;
   }
   .hebergements_general .hotel1 {
     display: flex;
@@ -243,8 +242,11 @@ $phone: 426px;
     margin-bottom: 10px;
   }
   .plus {
-    text-align: right;
-    margin-right: 50px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  ul a {
+    margin-bottom: 7px;
   }
 }
 /*Smarthphone */
@@ -260,7 +262,9 @@ $phone: 426px;
     font-size: 1em;
     padding-bottom: 40px;
   }
-
+  ul a {
+    margin-bottom: 7px;
+  }
   .main-nav ul .inscription {
     position: relative;
     top: 5px;
@@ -405,11 +409,10 @@ $phone: 426px;
     margin-bottom: 20px;
     border: 0px #f2f2f2 solid;
     background-color: #fff;
-    margin-left: 20px;
+    margin-right: 40px;
   }
   .hebergements_general h2 {
     font-size: 1.3rem;
-    margin-left: 0;
   }
   .hebergements_general .hotel1 {
     display: flex;

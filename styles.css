@@ -6,7 +6,8 @@
   margin-top: 0;
 }
 body {
-  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .container {
   width: 100%;
@@ -180,6 +181,8 @@ p {
   display: flex;
   justify-content: space-around;
   margin-top: 75px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .hotel img {
@@ -220,7 +223,7 @@ p {
 }
 
 .plus {
-  margin-top: 150px;
+  margin-top: 30px;
   margin-left: 10px;
 }
 
@@ -255,7 +258,7 @@ p {
   border-radius: 20px;
   box-shadow: 1px 1px 8px #e2e2e2;
   width: 72%;
-  height: 180px;
+  height: 130px;
   margin: 15px;
   display: flex;
   margin-top: 40px;
@@ -283,7 +286,7 @@ p {
 
 .star_pop {
   margin: 10px;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 /*Filters*/
@@ -379,8 +382,8 @@ p {
 }
 .first-col {
   border-radius: 21px;
-  width: 340px;
-  height: 410px;
+  width: 300px;
+  height: 420px;
   box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
   margin-left: 20px;
   margin-right: 20px;
@@ -427,7 +430,7 @@ p {
   margin-bottom: 10px;
 }
 h4 {
-  padding-top: 10px;
+  padding-top: 15px;
   font-size: 15px;
   margin-left: 10px;
 }

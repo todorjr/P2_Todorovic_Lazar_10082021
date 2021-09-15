@@ -427,7 +427,7 @@ p {
 .second-col-2 {
   border-radius: 21px;
   box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
-  width: 100%;
+  width: 95%;
   height: 200px;
   margin-bottom: 15px;
 }
